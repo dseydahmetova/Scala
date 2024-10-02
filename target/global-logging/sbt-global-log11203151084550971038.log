@@ -1,0 +1,37 @@
+[debug] > Exec(all {file:/C:/Users/DanaSeidakhmetova/IdeaProjects/Scala-sample/}root/products {file:/C:/Users/DanaSeidakhmetova/IdeaProjects/Scala-sample/}root/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 17 Scala sources to C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\target\scala-3.3.3\classes ...
+[warn] -- Warning: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\HelloWorld.scala:111:0 
+[warn] 111 |sealed trait Expr extends Product with Serializable
+[warn]     |^
+[warn]     |Line is indented too far to the left, or a `}` is missing
+[warn] -- Warning: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\HelloWorld.scala:112:0 
+[warn] 112 |final case class Number(value: Int) extends Expr
+[warn]     |^
+[warn]     |Line is indented too far to the left, or a `}` is missing
+[warn] -- Warning: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\HelloWorld.scala:113:0 
+[warn] 113 |final case class Plus(lhs: Expr, rhs: Expr) extends Expr
+[warn]     |^
+[warn]     |Line is indented too far to the left, or a `}` is missing
+[warn] -- Warning: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\HelloWorld.scala:114:0 
+[warn] 114 |final case class Minus(lhs: Expr, rhs: Expr) extends Expr
+[warn]     |^
+[warn]     |Line is indented too far to the left, or a `}` is missing
+[warn] -- Warning: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\ScalaIntro.scala:31:0 
+[warn] 31 |val names = List("Arthur", "Uther", "Mordred", "Vortigern")
+[warn]    |^
+[warn]    |Line is indented too far to the left, or a `}` is missing
+[warn] -- Warning: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\ScalaIntro.scala:35:0 
+[warn] 35 |val name = "Dan" :: "Bob" :: "Mike" :: "Tom" :: Nil
+[warn]    |^
+[warn]    |Line is indented too far to the left, or a `}` is missing
+[warn] -- Warning: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\ScalaIntro.scala:38:0 
+[warn] 38 |val namel = "Liza" :: ("Ann" :: ("Molly" :: ("Victoria" :: Nil)))
+[warn]    |^
+[warn]    |Line is indented too far to the left, or a `}` is missing
+[warn] there were 2 deprecation warnings; re-run with -deprecation for details
+[warn] 8 warnings found
+[info] done compiling
+[success] Total time: 3 s, completed Sep 13, 2024, 5:10:48 PM
+[debug] > Exec(idea-shell, None, None)

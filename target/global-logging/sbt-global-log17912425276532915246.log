@@ -1,0 +1,163 @@
+[debug] > Exec(;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download, resolveSourceClassifiers, insertProjectTransitiveDependencies" ;preferScala2;*/*:dumpStructureTo C:/Users/DanaSeidakhmetova/AppData/Local/Temp/sbt-structure.xml; session clear-all ; set ideaPort in Global := 52459, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.1 (Oracle Corporation Java 17.0.11)
+[debug] Load.defaultLoad until apply took 2.7173ms
+[debug]           Load.loadUnit: plugins took 22.5638ms
+[debug]           Load.loadUnit: defsScala took 0.0027ms
+[debug] [Loading] Scanning directory C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\project
+[debug]             Load.loadUnit: mkEval took 0.4509ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.0534 ms
+[info] loading settings for project scala-sample-build from idea.sbt ...
+[debug]               Load.resolveProject(scala-sample-build) took 8.8035ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scala-sample-build, base: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\project, plugins: List(<none>))) took 11.4315ms
+[debug] [Loading] Done in C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\project, returning: (scala-sample-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 30.1593ms
+[debug]           Load.loadUnit: cleanEvalClasses took 3.3087ms
+[debug]         Load.loadUnit(file:/C:/Users/DanaSeidakhmetova/IdeaProjects/Scala-sample/project/, ...) took 56.9298ms
+[debug]       Load.apply: load took 58.165ms
+[debug]       Load.apply: resolveProjects took 0.0735ms
+[debug]       Load.apply: finalTransforms took 9.0857ms
+[debug]       Load.apply: config.delegates took 0.2215ms
+[debug]       Load.apply: Def.make(settings)... took 55.7706ms
+[debug]       Load.apply: structureIndex took 18.2725ms
+[debug]       Load.apply: mkStreams took 0.0026ms
+[info] loading project definition from C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 319.6681ms
+[debug]     Load.loadUnit: defsScala took 0.0056ms
+[debug] [Loading] Scanning directory C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample
+[debug]       Load.loadUnit: mkEval took 0.4174ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.0075 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 26.4163ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample, plugins: List(<none>))) took 28.8961ms
+[debug] [Loading] Done in C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1027.6478ms
+[debug]     Load.loadUnit: cleanEvalClasses took 35.4014ms
+[debug]   Load.loadUnit(file:/C:/Users/DanaSeidakhmetova/IdeaProjects/Scala-sample/, ...) took 1383.8537ms
+[debug] Load.apply: load took 1385.0598ms
+[debug] Load.apply: resolveProjects took 0.0657ms
+[debug] Load.apply: finalTransforms took 40.4809ms
+[debug] Load.apply: config.delegates took 0.1991ms
+[debug] Load.apply: Def.make(settings)... took 49.0584ms
+[debug] Load.apply: structureIndex took 12.4184ms
+[debug] Load.apply: mkStreams took 0.0032ms
+[warn] Discarding 1 session setting.  Use 'session save' to persist session settings.
+[info] set current project to Scala-sample (in build file:/C:/Users/DanaSeidakhmetova/IdeaProjects/Scala-sample/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download, resolveSourceClassifiers, insertProjectTransitiveDependencies", None, None)
+[info] Defining Global / sbtStructureOptions
+[info] The new value will be used by Global / ssOptions
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Global / ssOptions
+[info] Reapplying settings...
+[info] set current project to Scala-sample (in build file:/C:/Users/DanaSeidakhmetova/IdeaProjects/Scala-sample/)
+[debug] > Exec(preferScala2, None, None)
+[debug] > Exec(*/*:dumpStructureTo C:/Users/DanaSeidakhmetova/AppData/Local/Temp/sbt-structure.xml, None, None)
+[debug] Evaluating tasks: Global / dumpStructureTo
+[warn] sbt 0.13 shell syntax is deprecated; use slash syntax instead: Global / dumpStructureTo
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_3/2.9.5/akka-actor-typed_3-2.9.5.pom
+[info] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_3/2.9.5/akka-actor-typed_3-2.9.5.pom
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_3/2.9.5/akka-actor-typed_3-2.9.5.pom.sha1
+[info] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_3/2.9.5/akka-actor-typed_3-2.9.5.pom.sha1
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-actor-typed_3/2.9.5/akka-actor-typed_3-2.9.5.pom
+[info] downloaded https://repo.akka.io/maven/com/typesafe/akka/akka-actor-typed_3/2.9.5/akka-actor-typed_3-2.9.5.pom
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_3/2.9.5/akka-actor_3-2.9.5.pom
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_3/2.9.5/akka-slf4j_3-2.9.5.pom
+[info] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_3/2.9.5/akka-actor_3-2.9.5.pom
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_3/2.9.5/akka-actor_3-2.9.5.pom.sha1
+[info] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_3/2.9.5/akka-slf4j_3-2.9.5.pom
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_3/2.9.5/akka-slf4j_3-2.9.5.pom.sha1
+[info] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_3/2.9.5/akka-actor_3-2.9.5.pom.sha1
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-actor_3/2.9.5/akka-actor_3-2.9.5.pom
+[info] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_3/2.9.5/akka-slf4j_3-2.9.5.pom.sha1
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-slf4j_3/2.9.5/akka-slf4j_3-2.9.5.pom
+[info] downloaded https://repo.akka.io/maven/com/typesafe/akka/akka-actor_3/2.9.5/akka-actor_3-2.9.5.pom
+[info] downloaded https://repo.akka.io/maven/com/typesafe/akka/akka-slf4j_3/2.9.5/akka-slf4j_3-2.9.5.pom
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.2/scala-java8-compat_3-1.0.2.pom
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.3/config-1.4.3.pom
+[info] downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.2/scala-java8-compat_3-1.0.2.pom
+[info] downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.3/config-1.4.3.pom
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-actor-typed_3/2.9.5/akka-actor-typed_3-2.9.5.jar
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-actor_3/2.9.5/akka-actor_3-2.9.5.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.3/config-1.4.3.jar
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-slf4j_3/2.9.5/akka-slf4j_3-2.9.5.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.2/scala-java8-compat_3-1.0.2.jar
+[info] downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.3/config-1.4.3.jar
+[info] downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.2/scala-java8-compat_3-1.0.2.jar
+[info] downloaded https://repo.akka.io/maven/com/typesafe/akka/akka-slf4j_3/2.9.5/akka-slf4j_3-2.9.5.jar
+[info] downloaded https://repo.akka.io/maven/com/typesafe/akka/akka-actor-typed_3/2.9.5/akka-actor-typed_3-2.9.5.jar
+[info] downloaded https://repo.akka.io/maven/com/typesafe/akka/akka-actor_3/2.9.5/akka-actor_3-2.9.5.jar
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-actor_3/2.9.5/akka-actor_3-2.9.5-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.2/scala-java8-compat_3-1.0.2-sources.jar
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-actor-typed_3/2.9.5/akka-actor-typed_3-2.9.5-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-slf4j_3/2.9.5/akka-slf4j_3-2.9.5-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.3/config-1.4.3-sources.jar
+[info] downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.2/scala-java8-compat_3-1.0.2-sources.jar
+[info] downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.3/config-1.4.3-sources.jar
+[info] downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar
+[info] downloaded https://repo.akka.io/maven/com/typesafe/akka/akka-actor_3/2.9.5/akka-actor_3-2.9.5-sources.jar
+[info] downloaded https://repo.akka.io/maven/com/typesafe/akka/akka-slf4j_3/2.9.5/akka-slf4j_3-2.9.5-sources.jar
+[info] downloaded https://repo.akka.io/maven/com/typesafe/akka/akka-actor-typed_3/2.9.5/akka-actor-typed_3-2.9.5-sources.jar
+[info] Writing structure to C:\Users\DanaSeidakhmetova\AppData\Local\Temp\sbt-structure.xml...
+[info] Done.
+[success] Total time: 5 s, completed Sep 13, 2024, 5:05:15 PM
+[debug] > Exec(session clear-all, None, None)
+[info] Reapplying settings...
+[info] set current project to Scala-sample (in build file:/C:/Users/DanaSeidakhmetova/IdeaProjects/Scala-sample/)
+[debug] > Exec(set ideaPort in Global := 52459, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to Scala-sample (in build file:/C:/Users/DanaSeidakhmetova/IdeaProjects/Scala-sample/)
+[debug] > Exec(idea-shell, None, None)

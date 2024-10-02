@@ -1,0 +1,37 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 72 products, 17 sources, 3 libraries
+[debug] current source = Set(${BASE}/src/main/scala/Calc.scala, ${BASE}/src/main/scala/Restaurant/myRestaurant.scala, ${BASE}/src/main/scala/bankAccount/Immutability.scala, ${BASE}/src/main/scala/Restaurant/Food.scala, ${BASE}/src/main/scala/Greetings.scala, ${BASE}/src/main/scala/Shapes/shapesActorScript.scala, ${BASE}/src/main/scala/Restaurant/Recipe.scala, ${BASE}/src/main/scala/Restaurant/Chef.scala, ${BASE}/src/main/scala/Address.scala, ${BASE}/src/main/scala/Shapes/ShapeDrawingApp.scala, ${BASE}/src/main/scala/Shapes/ShapesActor.scala, ${BASE}/src/main/scala/Shapes/Shapes.scala, ${BASE}/src/main/scala/ScalaIntro.scala, ${BASE}/src/main/scala/Restaurant/Restaurant.scala, ${BASE}/src/main/scala/bankAccount/Mutability.scala, ${BASE}/src/main/scala/Sorter.scala, ${BASE}/src/main/scala/HelloWorld.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Greetings.scala), unmodified = ...),Set(${BASE}/target/scala-3.3.3/classes/Greetings$.class, ${BASE}/target/scala-3.3.3/classes/Greetings.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/Greetings.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-3.3.3/classes/Greetings$.class, ${BASE}/target/scala-3.3.3/classes/Greetings.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(Greetings)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/Greetings.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(Greetings)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/Greetings.scala)
+[debug] Initial set of included nodes: Greetings
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\target\scala-3.3.3\classes ...
+[debug] Returning already retrieved and compiled bridge: C:\Users\DanaSeidakhmetova\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.3.3\scala3-sbt-bridge-3.3.3.jar.
+[debug] [zinc] Running cached compiler 5d134b9 for Scala Compiler version 3.3.3
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-classpath
+[debug] 	C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\target\scala-3.3.3\classes;C:\Users\DanaSeidakhmetova\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.3\scala3-library_3-3.3.3.jar;C:\Users\DanaSeidakhmetova\AppData\Local\Coursier\Cache\v1\https\repo.akka.io\maven\com\typesafe\akka\akka-actor-typed_3\2.9.5\akka-actor-typed_3-2.9.5.jar;C:\Users\DanaSeidakhmetova\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar;C:\Users\DanaSeidakhmetova\AppData\Local\Coursier\Cache\v1\https\repo.akka.io\maven\com\typesafe\akka\akka-actor_3\2.9.5\akka-actor_3-2.9.5.jar;C:\Users\DanaSeidakhmetova\AppData\Local\Coursier\Cache\v1\https\repo.akka.io\maven\com\typesafe\akka\akka-slf4j_3\2.9.5\akka-slf4j_3-2.9.5.jar;C:\Users\DanaSeidakhmetova\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\DanaSeidakhmetova\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.3\config-1.4.3.jar;C:\Users\DanaSeidakhmetova\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_3\1.0.2\scala-java8-compat_3-1.0.2.jar
+[debug] Scala compilation took 0.2802384 s
+[info] done compiling
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] Initial set of included nodes: Greetings
+[debug] No classes were invalidated.
