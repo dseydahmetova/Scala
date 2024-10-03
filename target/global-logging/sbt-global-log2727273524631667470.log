@@ -1,7 +1,0 @@
-[debug] > Exec(all {file:/C:/Users/DanaSeidakhmetova/IdeaProjects/Scala-sample/}root/products {file:/C:/Users/DanaSeidakhmetova/IdeaProjects/Scala-sample/}root/test:products, None, None)
-[debug] Evaluating tasks: Compile / products, Test / products
-[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
-[info] compiling 1 Scala source to C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\target\scala-3.3.3\classes ...
-[info] done compiling
-[success] Total time: 1 s, completed Oct 2, 2024, 9:42:59 AM
-[debug] > Exec(idea-shell, None, None)

@@ -1,2 +1,27 @@
 [debug] Acquiring lock on file C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock ...
+[warn] -- Warning: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\Greetings.scala:177:6 
+[warn] 177 |      case object Whole extends Duration
+[warn]     |      ^
+[warn]     |     Line is indented too far to the right, or a `{` or `:` is missing
+[warn] -- Warning: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\Greetings.scala:178:6 
+[warn] 178 |      case object Half extends Duration
+[warn]     |      ^
+[warn]     |     Line is indented too far to the right, or a `{` or `:` is missing
+[warn] -- Warning: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\Greetings.scala:179:6 
+[warn] 179 |      case object Quarter extends Duration
+[warn]     |      ^
+[warn]     |     Line is indented too far to the right, or a `{` or `:` is missing
+[warn] -- Warning: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\Greetings.scala:181:6 
+[warn] 181 |      def fractionOfWhole(duration: Duration): Double =
+[warn]     |      ^
+[warn]     |     Line is indented too far to the right, or a `{` or `:` is missing
+[warn] -- [E029] Pattern Match Exhaustivity Warning: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\Greetings.scala:171:10 
+[warn] 171 |          symbol match {
+[warn]     |          ^^^^^^
+[warn]     |          match may not be exhaustive.
+[warn]     |
+[warn]     |          It would fail on pattern case: Note(_, _, _)
+[warn]     |
+[warn]     | longer explanation available when compiling with `-explain`
+[warn] 5 warnings found
 [debug] Releasing lock on file C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock.
