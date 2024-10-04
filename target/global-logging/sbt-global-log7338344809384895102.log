@@ -1,4 +1,7 @@
-[debug] Acquiring lock on file C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock ...
+[debug] > Exec(all {file:/C:/Users/DanaSeidakhmetova/IdeaProjects/Scala-sample/}root/products {file:/C:/Users/DanaSeidakhmetova/IdeaProjects/Scala-sample/}root/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\target\scala-3.3.3\classes ...
 [error] -- [E006] Not Found Error: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\ListExercise.scala:99:8 
 [error] 99 |        sqrt(x) match {
 [error]    |        ^^^^
@@ -11,11 +14,10 @@
 [error]     |                          Not found: y
 [error]     |
 [error]     | longer explanation available when compiling with `-explain`
-[error] -- [E007] Type Mismatch Error: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\ListExercise.scala:103:32 
-[error] 103 |      println("foo: " + foo(Some(1)))
-[error]     |                            ^^^^^^^
-[error]     |                            Found:    Some[Int]
-[error]     |                            Required: Double
+[error] -- [E006] Not Found Error: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\ListExercise.scala:103:29 
+[error] 103 |      println("foo: " + Some(x))
+[error]     |                             ^
+[error]     |                             Not found: x
 [error]     |
 [error]     | longer explanation available when compiling with `-explain`
 [error] -- [E008] Not Found Error: C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\src\main\scala\ListExercise.scala:107:30 
@@ -32,4 +34,6 @@
 [error]     |      ^
 [error]     |      value shouldBe is not a member of Option[Int]
 [error] 6 errors found
-[debug] Releasing lock on file C:\Users\DanaSeidakhmetova\IdeaProjects\Scala-sample\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock.
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed Oct 4, 2024, 9:54:48 AM
+[debug] > Exec(idea-shell, None, None)
